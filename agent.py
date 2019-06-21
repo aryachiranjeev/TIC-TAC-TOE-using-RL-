@@ -39,7 +39,7 @@ class RLAgent:
 
 
 	def update_state_values(self,last_state_values):
-		lr=0.3
+		lr=0.2
 		N=len(self.history_states)
 
 		for i in range(N-1,-1,-1): #update value function from last sate
